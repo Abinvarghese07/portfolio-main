@@ -37,11 +37,11 @@ const Navbar = () => {
             </nav>
              <ul className={!isOpen ? 'hidden' : ' bg-neutral-300 w-full p-8 font-body text-center rounded-md mt-[30px]'}>
                 
-                    <li className='text-xl text-white hover:underline hover:underline-offset-4 border-b border-slate-700 p-1 hover:decoration-red-500'><Link  to="features"  smooth={true} offset={50} duration={500} > Home</Link></li>
-                    <li className='text-xl text-white hover:underline hover:underline-offset-4 border-b border-slate-700 p-1 hover:decoration-red-500'><Link to="benefits" smooth={true} offset={50} duration={500}>Projects</Link></li>
-                    <li className='text-xl text-white hover:underline hover:underline-offset-4 border-b border-slate-700 p-1 hover:decoration-red-500'><Link  to="demo"  smooth={true} offset={50} duration={500} >About</Link></li>
-                    <li className='text-xl text-white hover:underline hover:underline-offset-4 border-b border-slate-700 p-1 hover:decoration-red-500'><Link to="contact" smooth={true} offset={50} duration={500}>Contact</Link></li>
-
+                    <li className='text-xl font hover:text-white hover:underline hover:underline-offset-4 hover:decoration-slate-200 border-b border-slate-400 p-2'><Link  to="home"  smooth={true} offset={50} duration={500} > Home</Link></li>
+                    <li className='text-xl font hover:text-white hover:underline hover:underline-offset-4 hover:decoration-slate-200 border-b border-slate-400 p-2'><Link to="projects" smooth={true} offset={50} duration={500}>Projects</Link></li>
+                    <li className='text-xl font hover:text-white hover:underline hover:underline-offset-4 hover:decoration-slate-200 border-b border-slate-400 p-2'><Link  to="about"  smooth={true} offset={50} duration={500} >About</Link></li>
+                    <li className='text-xl font hover:text-white hover:underline hover:underline-offset-4 hover:decoration-slate-200 border-b border-slate-400 p-2'><Link to="contact" smooth={true} offset={50} duration={500}>Contact</Link></li>
+                    
             </ul>
 
             <div className='hidden fixed top-[35%] left-0 lg:flex'>
