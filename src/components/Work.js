@@ -4,7 +4,7 @@ import stormImg from '../assets/storm.png'
 import elixirImg from '../assets/elixir.png'
 import creativeImg from '../assets/craetive.png'
 import healhImg from '../assets/health.png'
-import todoImg from '../assets/Todo.png'
+import Socials from '../assets/Screenshot 2024-02-24 210234.png';
 
 const Work = () => {
     return (
@@ -15,6 +15,16 @@ const Work = () => {
                 <p className='text-2xl text-zinc-700'>Check out some of my Projects.</p>
             </div>
             <div className='flex flex-col md:grid md:grid-cols-2 gap-[100px] '>
+               <div className='h-full w-[400px] md:w-full rounded-md group shadow-lg shadow-slate-700'>
+                    <img src={Socials} alt='/' className='  object-contain h-[250px]   group-hover:opacity-40 : '></img>
+                    <div className=' opacity-70 '>
+                    <a href='https://social-sphere-7a9f4.firebaseapp.com/'>
+                        <button className=' absolute opacity-0  group-hover:opacity-100 mt-[-120px] ml-[-50px] bg-slate-400 px-5 py-2 rounded-lg text-white'>View</button>
+
+                    </a>
+                    </div>
+                    
+                </div>
                 <div className='h-full w-[400px] md:w-full rounded-md group shadow-lg shadow-slate-700'>
                     <img src={DashboardImg} alt='/' className='  object-contain h-[250px]   group-hover:opacity-40 : '></img>
                     <div className=' opacity-70 '>
@@ -49,16 +59,6 @@ const Work = () => {
                     <img src={elixirImg} alt='/' className='  object-contain h-[250px]   group-hover:opacity-40 : '></img>
                     <div className=' opacity-70 '>
                     <a href='https://65283054dbaa8e5212cd2aad--profound-centaur-2d581e.netlify.app/'>
-                        <button className=' absolute opacity-0  group-hover:opacity-100 mt-[-120px] ml-[-50px] bg-slate-400 px-5 py-2 rounded-lg text-white'>View</button>
-
-                    </a>
-                    </div>
-                    
-                </div>
-               <div className='h-full w-[400px] md:w-full rounded-md group shadow-lg shadow-slate-700'>
-                    <img src={todoImg} alt='/' className='  object-contain h-[250px]   group-hover:opacity-40 : '></img>
-                    <div className=' opacity-70 '>
-                    <a href='https://todolist-steel-xi.vercel.app/'>
                         <button className=' absolute opacity-0  group-hover:opacity-100 mt-[-120px] ml-[-50px] bg-slate-400 px-5 py-2 rounded-lg text-white'>View</button>
 
                     </a>
